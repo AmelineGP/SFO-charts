@@ -1,0 +1,41 @@
+{
+	"chartname": "ZRH Upper Chart",
+	"elements": [
+		{
+			"name":"M1",
+			"type":"SECTOR",
+			"referencedoc": "Airspace_NoRefGeoborder.xml",
+			"ref_uid":"7e390f22-8f44-4b8c-8672-c88962e632e4"
+		},
+		{
+			"name":"KUDIS",
+			"type":"ICAO",
+			"referencedoc": "DesignatedPoint_Navaid.xml",
+			"ref_uid":"733973ca-64cf-44d3-aa6f-31f58436d97f"
+		},
+		{
+			"name":"ZUE",
+			"type":"VOR_DME",
+			"referencedoc": "DesignatedPoint_Navaid.xml",
+			"ref_uid":"a3aa9b9e-48b2-401c-8813-effee5aab09c"
+		},
+		{
+			"name":"UZ613 (NEGRA - AKABI)",
+			"type":"RouteSegment",
+			"referencedoc": "Route.xml",
+			"ref_uid":"6d8ec7f0-8df0-4bc4-b720-cb42fde725fa", 
+			"points":[
+				{
+				"name":"NEGRA",
+				"referencedoc":"DesignatedPoint_Navaid.xml",
+				"ref_uid": "454ad048-418e-45d1-9711-21f0cd7fb92a"
+				},
+				{
+				"name":"AKABI",
+				"referencedoc":"DesignatedPoint_Navaid.xml",
+				"ref_uid": "bcf3e7f4-7dbc-47af-aa7c-84a466063307"
+				}
+			]
+		}
+	]
+}
